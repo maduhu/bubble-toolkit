@@ -29,7 +29,9 @@ variable "network_offerings" {
   default {
     "vpc_isolatednetworks" = "DefaultIsolatedNetworkOfferingForVpcNetworks"
     "isolatednetworks" = "DefaultIsolatedNetworkOffering"
+    "isolatednetworks_egress" = "DefaultIsolatedNetworkOfferingWithEgress"
     "isolatednetworks_redundant" = "DefaultRedundantIsolatedNetworkOffering"
+    "isolatednetworks_redundant_egress" = "DefaultRedundantIsolatedNetworkOfferingWithEgress"
     "privatenetworks" = "DefaultPrivateGatewayNetworkOffering"
   }
 }
